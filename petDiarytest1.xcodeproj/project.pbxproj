@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A20596E31D4911DD006F4A34 /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20596E21D4911DD006F4A34 /* BackTableVC.swift */; };
+		A2276FF41D4A4A6700F0EE26 /* Menu1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2276FF31D4A4A6700F0EE26 /* Menu1.swift */; };
+		A2276FF61D4A4B4900F0EE26 /* Menu2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2276FF51D4A4B4900F0EE26 /* Menu2.swift */; };
+		A2276FF81D4A4B5500F0EE26 /* Menu3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2276FF71D4A4B5500F0EE26 /* Menu3.swift */; };
+		A2276FFA1D4A4B5D00F0EE26 /* Menu4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2276FF91D4A4B5D00F0EE26 /* Menu4.swift */; };
 		A2CA16041D40E980007C3EC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CA16031D40E980007C3EC8 /* AppDelegate.swift */; };
 		A2CA16061D40E980007C3EC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CA16051D40E980007C3EC8 /* ViewController.swift */; };
 		A2CA16091D40E980007C3EC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CA16071D40E980007C3EC8 /* Main.storyboard */; };
@@ -38,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A20596E21D4911DD006F4A34 /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
+		A2276FF31D4A4A6700F0EE26 /* Menu1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu1.swift; sourceTree = "<group>"; };
+		A2276FF51D4A4B4900F0EE26 /* Menu2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu2.swift; sourceTree = "<group>"; };
+		A2276FF71D4A4B5500F0EE26 /* Menu3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu3.swift; sourceTree = "<group>"; };
+		A2276FF91D4A4B5D00F0EE26 /* Menu4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu4.swift; sourceTree = "<group>"; };
 		A2CA16001D40E980007C3EC8 /* petDiarytest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = petDiarytest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2CA16031D40E980007C3EC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2CA16051D40E980007C3EC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +115,11 @@
 		A2CA16021D40E980007C3EC8 /* petDiarytest1 */ = {
 			isa = PBXGroup;
 			children = (
+				A2276FF31D4A4A6700F0EE26 /* Menu1.swift */,
+				A2276FF51D4A4B4900F0EE26 /* Menu2.swift */,
+				A2276FF71D4A4B5500F0EE26 /* Menu3.swift */,
+				A2276FF91D4A4B5D00F0EE26 /* Menu4.swift */,
+				A20596E21D4911DD006F4A34 /* BackTableVC.swift */,
 				A2CA16341D40EC99007C3EC8 /* SWRevealViewController */,
 				A2CA16031D40E980007C3EC8 /* AppDelegate.swift */,
 				A2CA16051D40E980007C3EC8 /* ViewController.swift */,
@@ -277,8 +292,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2CA16061D40E980007C3EC8 /* ViewController.swift in Sources */,
+				A20596E31D4911DD006F4A34 /* BackTableVC.swift in Sources */,
 				A2CA160C1D40E980007C3EC8 /* petDiarytest1.xcdatamodeld in Sources */,
 				A2CA16041D40E980007C3EC8 /* AppDelegate.swift in Sources */,
+				A2276FFA1D4A4B5D00F0EE26 /* Menu4.swift in Sources */,
+				A2276FF61D4A4B4900F0EE26 /* Menu2.swift in Sources */,
+				A2276FF41D4A4A6700F0EE26 /* Menu1.swift in Sources */,
+				A2276FF81D4A4B5500F0EE26 /* Menu3.swift in Sources */,
 				A2CA163A1D40ECD4007C3EC8 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,6 +543,7 @@
 				A2CA162D1D40E981007C3EC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2CA162E1D40E981007C3EC8 /* Build configuration list for PBXNativeTarget "petDiarytest1Tests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +552,7 @@
 				A2CA16301D40E981007C3EC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2CA16311D40E981007C3EC8 /* Build configuration list for PBXNativeTarget "petDiarytest1UITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +561,7 @@
 				A2CA16331D40E981007C3EC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
